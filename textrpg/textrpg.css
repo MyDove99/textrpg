@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'DOSGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url("ravenclawgame.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.gamecenter{
+    background-image: url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRdPsk%2FbtrHtgmNeLm%2Fok4X2uWpVseTaQxrqD90uk%2Fimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 60%;
+    border: 3px solid white;
+    float: right;
+    margin-right: 8%;
+    margin-top: 4%;
+    color: white;
+    text-shadow: -3px 0 #000, 0 3px #000,3px 0 #000, 0 -3px #000;
+}
+.banner{
+    width:20%;
+    height: 20%;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-left: 8%;
+}
+.userinfo1, .userinfo2, .userinfo3{
+    color: white;
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+    border: 3px solid white;
+    font-family: 'DOSGothic';
+    font-size: 20px;
+}
+.tableuserinfo{
+    width: 100%;
+    text-align: center;
+}
+.hr{
+    height: 1px;
+    background-color: white;
+}
+.ingametext1{
+    font-family: 'DOSGothic';
+    font-size: 25px;
+    color: white;
+    height: 32%;
+    text-align: center;
+    text-shadow: -3px 0 #000, 0 3px #000,3px 0 #000, 0 -3px #000;
+}
+.ingametext2{
+    font-family: 'DOSGothic';
+    font-size: 25px;
+    color: white;
+    height: 44%;
+    text-align: center;
+    text-shadow: -3px 0 #000, 0 3px #000,3px 0 #000, 0 -3px #000;
+}
+.ingametext3{
+    font-family: 'DOSGothic';
+    font-size: 25px;
+    color: white;
+    height: 20%;
+    text-align: center;
+    text-shadow: -3px 0 #000, 0 3px #000,3px 0 #000, 0 -3px #000;
+}
+.enemytable{
+    text-align: center;
+    border: 2px solid white;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.enemyimg{
+    width: 250px;
+    height: 250px;
+}
+.enemydiv{
+    width: 40%;
+    float: left;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.enemyimgdiv{      
+    width: 40%;
+    float: left;
+    height: 80%;
+}
+.actioncheck{
+    background-color: white;
+    border: 2px solid red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.actioncheck:hover{
+    background-color: red;
+}
+.actioncheck1{
+    background-color: white;
+    border: 2px solid green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.actioncheck1:hover{
+    background-color: green;
+}
+.actioncheck2{
+    background-color: white;
+    border: 2px solid blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.actioncheck2:hover{
+    background-color: blue;
+}
+.actioncheck3{
+    background-color: white;
+    border: 2px solid goldenrod;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.actioncheck3:hover{
+    background-color: goldenrod;
+}
+.paction{
+    transition-duration: 0.4s;
+    border: 3px solid gray;
+}
+.paction:focus{
+    border: 3px solid black;
+}
